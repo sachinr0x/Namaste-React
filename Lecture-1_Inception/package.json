@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "igniting our app",
   "scripts": {
+    "dev": "npx parcel index.html",
     "test": "jest"
   },
   "repository": {
