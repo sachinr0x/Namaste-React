@@ -1,17 +1,16 @@
 {
-  "name": "lecture-1_inception",
+  "name": "lecture-3_ignitingourapp",
   "version": "1.0.0",
-  "description": "igniting our app",
+  "description": "Lecture-3",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "start" : "parcel index.html",
     "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sachinr0x/Namaste-React.git"
   },
-  "author": "Sachin",
+  "author": "sachin",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sachinr0x/Namaste-React/issues"
@@ -21,8 +20,5 @@
     "parcel": "^2.16.4",
     "react": "^19.3.0",
     "react-dom": "^19.3.0"
-  },
-  "browserslist": [
-    "last 2 versions"
-  ]
+  }
 }
