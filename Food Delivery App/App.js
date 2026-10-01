@@ -50,7 +50,7 @@ const SearchBar = () => {
 }
 
 const RestaurantCard = () =>{
-    return (<div className = "restuarant-card">
+    return (<div className = "restaurant-card">
         <img src="./Resources/restaurants/restaurant1.jpg" alt="Restaurant" />
         <h3>Restaurant Name</h3>
         <p>Cuisine Type</p>
@@ -59,7 +59,7 @@ const RestaurantCard = () =>{
 }
 
 const Restaurants = () => {
-    return (<div className = "restaurants">
+    return (<div className = "restaurants-container">
         <RestaurantCard/>
         <RestaurantCard/>
         <RestaurantCard/>
@@ -74,11 +74,19 @@ const Body = () =>{
   </div>)
 }
 
+const Footer = () =>{
+    return(
+        <div className = "footer-container">
+
+        </div>
+    )
+}
+
 const App = () =>(
     <div className="parent-container">
         <Header />
         <Body/>
-  
+        <Footer/>
     </div>
 )
 const root = ReactDOM.createRoot(document.getElementById("root"))
